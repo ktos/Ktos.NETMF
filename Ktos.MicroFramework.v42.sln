@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ktos.MicroFramework.Drivers.v42", "Ktos.MicroFramework.Drivers\Ktos.MicroFramework.Drivers.v42.csproj", "{79943274-765C-4216-9684-78785D880D95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ktos.MicroFramework.Stm32.v42", "Ktos.MicroFramework.Stm32\Ktos.MicroFramework.Stm32.v42.csproj", "{29903290-D2FC-469E-8AF9-65824B77D6D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{79943274-765C-4216-9684-78785D880D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79943274-765C-4216-9684-78785D880D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79943274-765C-4216-9684-78785D880D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29903290-D2FC-469E-8AF9-65824B77D6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29903290-D2FC-469E-8AF9-65824B77D6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29903290-D2FC-469E-8AF9-65824B77D6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29903290-D2FC-469E-8AF9-65824B77D6D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
