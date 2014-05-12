@@ -30,6 +30,7 @@
   </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
+	<Compile Include="Mma7361.cs" />
     <Compile Include="TimespanExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Hcsr04.cs" />
