@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Ktos.MicroFramework.Stm32</id>
+    <version>1.0.1</version>
+    <title>Ktos.MicroFramework.Stm32</title>
+    <authors>Ktos</authors>
+    <owners>Ktos</owners>
+    <licenseUrl>http://test</licenseUrl>
+    <projectUrl>http://netmfnuget.azurewebsites.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>STM32F4-Discovery additional libraries</summary>
+	<description>STM32F4-Discovery additional libraries</description>
+    <releaseNotes>Initial revision</releaseNotes>
+    <copyright />
+    <tags>netmf stm32f4 discovery4</tags>
+  </metadata>
+  <files>
+
+    <file src="bin\Release\Ktos.MicroFramework.Stm32.pdb" target="lib/netmf43/" />
+    <file src="bin\Release\be\Ktos.MicroFramework.Stm32.pe" target="lib/netmf43/be/" />
+    <file src="bin\Release\be\Ktos.MicroFramework.Stm32.pdbx" target="lib/netmf43/be/" />
+    <file src="bin\Release\le\Ktos.MicroFramework.Stm32.pe" target="lib/netmf43/le/" />
+    <file src="bin\Release\le\Ktos.MicroFramework.Stm32.pdbx" target="lib/netmf43/le/" />
+
+	<file src="bin\Release.v42\Ktos.MicroFramework.Stm32.pdb" target="lib/netmf42/" />
+    <file src="bin\Release.v42\be\Ktos.MicroFramework.Stm32.pe" target="lib/netmf42/be/" />
+    <file src="bin\Release.v42\be\Ktos.MicroFramework.Stm32.pdbx" target="lib/netmf42/be/" />
+    <file src="bin\Release.v42\le\Ktos.MicroFramework.Stm32.pe" target="lib/netmf42/le/" />
+    <file src="bin\Release.v42\le\Ktos.MicroFramework.Stm32.pdbx" target="lib/netmf42/le/" />
+	
+    <!--<file src="bin\Release\Ktos.MicroFramework.Stm32.dll" target="lib/netmf43/" />
+    <file src="bin\Release\Ktos.MicroFramework.Stm32.pdb" target="lib/netmf43/" />-->
+	
+	<file src="bin\Release.v42\Ktos.MicroFramework.Stm32.dll" target="lib/netmf42/" />
+    <file src="bin\Release.v42\Ktos.MicroFramework.Stm32.pdb" target="lib/netmf42/" />
+</files>
+</package>
