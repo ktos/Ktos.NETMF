@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Ktos.NETMF.NotifyPropertyChanged</id>
+    <version>1.0.0</version>
+    <title>Ktos.MicroFramework.Stm32</title>
+    <authors>Marcin "Ktos" Badurowicz</authors>
+    <owners>ktos</owners>
+    <licenseUrl>https://github.com/ktos/Ktos.NETMF/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ktos/Ktos.NETMF</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>An implementation of INotifyPropertyChanged for NETMF</summary>
+	<description>A set of classes identical with "big" .NET Framework's INotifyPropertyChanged with the same namespaces to allow cross-platform (universal) development for NETMF</description>
+    <releaseNotes>Initial revision</releaseNotes>
+    <copyright />
+    <tags>netmf wpf databinding</tags>
+  </metadata>
+  <files>
+
+    <file src="bin\Release\Ktos.NETMF.NotifyPropertyChanged.pdb" target="lib/netmf43/" />
+    <file src="bin\Release\Ktos.NETMF.NotifyPropertyChanged.dll" target="lib/netmf43/" />
+	
+    <file src="bin\Release\be\Ktos.NETMF.NotifyPropertyChanged.pe" target="lib/netmf43/be/" />
+    <file src="bin\Release\be\Ktos.NETMF.NotifyPropertyChanged.pdbx" target="lib/netmf43/be/" />
+    <file src="bin\Release\le\Ktos.NETMF.NotifyPropertyChanged.pe" target="lib/netmf43/le/" />
+    <file src="bin\Release\le\Ktos.NETMF.NotifyPropertyChanged.pdbx" target="lib/netmf43/le/" />
+</files>
+</package>
